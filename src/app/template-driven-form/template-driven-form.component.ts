@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TemplateDrivenFormComponent implements OnInit {
 
+  nom!: string;
+  prenom!: string;
+  email!: string;
+  typeCarte!: string;
+  numeroCarte!: string;
+  date!: string;
+
   constructor() { }
 
   ngOnInit(): void {
